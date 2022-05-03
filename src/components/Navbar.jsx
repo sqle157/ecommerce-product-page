@@ -63,7 +63,11 @@ function Navbar({ cartProductQuantity, setCartProductQuantity }) {
 					</nav>
 				</div>
 				<div className='flex icon-container'>
-					<a href='/' className='position-relative' onClick={(e) => e.preventDefault()}>
+					<a
+						href='/'
+						aria-label='Shopping Cart'
+						className='position-relative'
+						onClick={(e) => e.preventDefault()}>
 						<svg
 							onClick={() => setOpenCart(true)}
 							className='icon-cart'
