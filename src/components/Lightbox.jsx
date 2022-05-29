@@ -66,7 +66,7 @@ function Lightbox({ images, setLightbox }) {
 							prevState === 0 ? images.length - 1 : prevState - 1
 						)
 					}
-					className='lightbox-control main-control-prev'>
+					className='lightbox-control control-prev'>
 					<svg width='13' height='18' xmlns='http://www.w3.org/2000/svg'>
 						<path
 							d='M11 1 3 9l8 8'
@@ -83,7 +83,7 @@ function Lightbox({ images, setLightbox }) {
 							prevState === images.length - 1 ? 0 : prevState + 1
 						)
 					}
-					className='lightbox-control main-control-next'>
+					className='lightbox-control control-next'>
 					<svg width='13' height='18' xmlns='http://www.w3.org/2000/svg'>
 						<path
 							d='m2 1 8 8-8 8'

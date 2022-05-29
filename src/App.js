@@ -1,11 +1,10 @@
-// import { ProductContextProvider } from './context/ProductContext';
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Product from './components/Product';
 
-// For some reason, React is not rendering when I use Context Provider
-// and it doesn't show any errors on the console which is really confusing.
-// So I have to use global state manually by passing it down level by level,
+// For some reason, React didn't render when I use Context Provider
+// and it didn't show any errors on the console which was really confusing.
+// So I had to use global state manually by passing it down level by level,
 // but I will come back to refactor the code to useContext API when I figure out the problem
 function App() {
 	const [productQuantity, setProductQuantity] = useState(0);

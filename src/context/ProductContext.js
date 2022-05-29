@@ -2,17 +2,19 @@
 
 // const ProductContext = createContext();
 
-// export const ProductContextProvider = ({ chidlren }) => {
+// export const ProductProvider = ({ chidlren }) => {
 // 	const [productQuantity, setProductQuantity] = useState(0);
-// 	const [addToCart, setAddToCart] = useState(false);
+// 	const [cartProductQuantity, setCartProductQuantity] = useState(0);
 
+// 	// Handle action add items to cart
 // 	const handleAddToCart = () => {
-// 		setAddToCart(true);
+// 		setCartProductQuantity((prevState) => prevState + productQuantity);
+// 		setProductQuantity(0);
 // 	};
 
 // 	return (
 // 		<ProductContext.Provider
-// 			value={{ productQuantity, addToCart, setProductQuantity, handleAddToCart }}>
+// 			value={{ productQuantity, cartProductQuantity, setProductQuantity, handleAddToCart }}>
 // 			{chidlren}
 // 		</ProductContext.Provider>
 // 	);
