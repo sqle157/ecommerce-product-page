@@ -16,7 +16,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/sqle157/ecommerce-product-page)
-- Live Site URL: [Live Demo](https://space-tourism-website-ol1gl7npe-sqle157.vercel.app/)
+- Live Site URL: [Live Demo](https://ecommerce-product-page-iqcm0n98n-sqle157.vercel.app/)
 
 ### Built with
 
